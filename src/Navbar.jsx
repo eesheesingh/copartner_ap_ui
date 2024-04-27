@@ -13,14 +13,14 @@ const Navbar = () => {
     <div className="flex items-center md:py-[1rem]">
       <nav className="flex justify-between items-center w-full">
         <Link to="/">
-          <img src={logo} alt="logo" className="xl:w-[200px] md:w-[225px] h-[39px] ml-[-4rem] mt-2" />
+          <img src={logo} alt="logo" className="xl:w-[200px] md:w-[210px] h-[39px] ml-[-4rem] mt-2" />
         </Link>
 
         {/* Search Button bar and profile picture */}
         <div className="flex items-center">
           <div className="flex w-[265px] h-[50px] items-center justify-center">
             <button
-              className="bg-[#fff] text-[#000] md:text-[15px] px-10 py-3 rounded-md"
+              className="bg-[#fff] text-[#000] md:text-[15px] px-8 py-3 rounded-md font-semibold"
             >
               Earning Calculator
             </button>
